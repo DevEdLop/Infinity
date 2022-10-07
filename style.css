@@ -1,0 +1,62 @@
+/* poderoso css (⓿_⓿)✍(◔◡◔) */
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  max-width: 320px;
+  background: #eee;
+  margin-top: 85px;
+}
+
+.calculator-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 0;
+}
+
+.calc-numbers {
+  font-family: 'Space Mono', serif;
+  background: black;
+  color: white;
+  font-size: 2em;
+  border: 0;
+  padding: 0.3em;
+  text-align: right;
+  width: 100%;
+  height: 100px;
+}
+
+.span-2 {
+  grid-column: span 2;
+}
+
+.span-3 {
+  grid-column: span 3;
+}
+
+.btn {
+  font-size: 1em;
+  height: 65px;
+  border: 1px solid black !important;
+}
+
+.btn:hover {
+  background: #fff;
+}
+
+.btn:focus {
+  background: bisque;
+}
+
+ol {
+  list-style: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
