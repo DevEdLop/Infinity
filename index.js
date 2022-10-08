@@ -37,6 +37,8 @@ const handleSymbol = (value) => {
             operadorAnterior = null;
             historialOperaciones.length = 0;
             calcular.disabled = false;
+            break;
+        case "CL":
             refrescarHistorial()
             break;
         case "=":
